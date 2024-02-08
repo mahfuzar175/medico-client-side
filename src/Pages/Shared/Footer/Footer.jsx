@@ -1,125 +1,92 @@
+import icon from "../../../assets/Images/Medico.png";
+
 const Footer = () => {
   return (
     <footer className="font-poppins">
-      <div className="bg-gray-200 py-4 text-blue-900 font-semibold">
+      <div className="bg-gray-100 py-4 text-blue-900 font-medium">
         <div className="container px-4 mx-auto">
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="px-4 my-4 w-full xl:w-1/5">
               <a href="/" className="block w-56 mb-10">
-                <svg
-                  version="1.1"
-                  viewBox="0 0 3368 512"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g fill="none" fill-rule="evenodd">
-                    <g transform="translate(0 -75)">
-                      <g transform="translate(0 75)">
-                        <rect
-                          width="512"
-                          height="512"
-                          rx="128"
-                          fill="#3D5AFE"
-                        ></rect>
-                        <rect
-                          x="149"
-                          y="176"
-                          width="220"
-                          height="220"
-                          fill="#fff"
-                        ></rect>
-                        <circle cx="259" cy="156" r="40" fill="#fff"></circle>
-                        <circle
-                          cx="369"
-                          cy="286"
-                          r="40"
-                          fill="#2962FF"
-                        ></circle>
-                      </g>
-                      <text
-                        fill="white"
-                        font-family="Nunito-Bold, Nunito"
-                        font-size="512"
-                        font-weight="bold"
-                      >
-                        <tspan x="654" y="518">
-                          Medico
-                        </tspan>
-                      </text>
-                    </g>
-                  </g>
-                </svg>
+                <img className="w-52" src={icon} alt="" />
               </a>
               <p className="text-justify">
-              From wellness tips to expert advice, we're here to support your journey to a healthier you.
+                From wellness tips to expert advice, we're here to support your
+                journey to a healthier you.
               </p>
             </div>
 
             <div class="px-4 my-4 w-full sm:w-auto">
               <div>
-                <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900">
-                  Company
+                <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900 font-semibold">
+                  Quick Links
                 </h2>
               </div>
               <ul class="leading-8">
                 <li>
-                  <a href="#" class="hover:text-blue-400">
-                    About Us
+                  <a href="/" class="hover:text-blue-400">
+                    Home
                   </a>
                 </li>
                 <li>
                   <a href="#" class="hover:text-blue-400">
-                    Terms &amp; Conditions
+                    Appointment
                   </a>
                 </li>
                 <li>
                   <a href="#" class="hover:text-blue-400">
-                    Privacy Policy
+                    Style Guide
                   </a>
                 </li>
                 <li>
                   <a href="#" class="hover:text-blue-400">
-                    Contact Us
+                    Licenses
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-blue-400">
+                    Changelog
                   </a>
                 </li>
               </ul>
             </div>
             <div class="px-4 my-4 w-full sm:w-auto">
               <div>
-                <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900">
-                  Blog
+                <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900 font-semibold">
+                  Opening Hours
                 </h2>
               </div>
               <ul class="leading-8">
                 <li>
                   <a href="#" class="hover:text-blue-400">
-                    Getting Started With HTML and CSS
+                    Mon - Tues 08:00 AM - 05:00PM
                   </a>
                 </li>
                 <li>
                   <a href="#" class="hover:text-blue-400">
-                    What Is Flex And When to Use It?
+                    Wed - Thu 09:00 AM - 06:00PM
                   </a>
                 </li>
                 <li>
                   <a href="#" class="hover:text-blue-400">
-                    How TailwindCSS Can Help Your Productivity?
+                    Fri - Sat 08:00 AM - 05:00PM
                   </a>
                 </li>
                 <li>
                   <a href="#" class="hover:text-blue-400">
-                    5 Tips to Make Responsive Website
+                    Sunday Emergency Only
                   </a>
                 </li>
                 <li>
                   <a href="#" class="hover:text-blue-400">
-                    See More
+                    Personal Mon - 05:00PM
                   </a>
                 </li>
               </ul>
             </div>
             <div class="px-4 my-4 w-full sm:w-auto xl:w-1/5">
               <div>
-                <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900">
+                <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900 font-semibold">
                   Connect With Us
                 </h2>
               </div>
@@ -187,17 +154,17 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="w-full border-t border-gray-300" />
-      <div className="bg-gray-200 py-6 font-semibold text-blue-900">
+      <hr className="w-full border-t border-gray-200" />
+      <div className="bg-gray-100 py-6 font-medium text-blue-900">
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="px-4 w-full text-center">
               Copyright © 2020
               <script>
-                new Date().getFullYear() > 2020 && document.write("- " + new
+                new Date().getFullYear() > 2023 && document.write("- " + new
                 Date().getFullYear())
               </script>
-              - 2022 Tailwindow. All Rights Reserved.
+              - 2024 Medico Medical Center, All Rights Reserved.
             </div>
           </div>
         </div>
