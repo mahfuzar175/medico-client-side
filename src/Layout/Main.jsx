@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <div className="flex-1">
+      <div className="flex-1 bg-gradient-to-r from-base-200 to-pink-100">
         <Outlet />
       </div>
       <Footer />
