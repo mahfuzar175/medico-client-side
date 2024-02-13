@@ -1,34 +1,32 @@
-import { Link } from "react-router-dom";
 import icon from "../../../assets/Images/Medico.png";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
-
 
 const Navbar = () => {
   const navOptions = (
     <>
-      <li>
-        <Link>Home</Link>
+      <li className="my-1">
+        <a href="/">Home</a>
       </li>
-      <li>
-        <Link>About</Link>
+      <li className="my-1">
+        <a>About</a>
       </li>
-      <li>
-        <Link>Departments</Link>
+      <li className="my-1">
+        <a>Departments</a>
       </li>
-      <li>
-        <Link>Pages</Link>
+      <li className="my-1">
+        <a>Pages</a>
       </li>
-      <li>
-        <Link>Blog</Link>
+      <li className="my-1">
+        <a>Blog</a>
       </li>
-      <li>
-        <Link>Contact</Link>
+      <li className="my-1">
+        <a>Contact</a>
       </li>
     </>
   );
   return (
     <div>
-      <div className="drawer text-blue-900 lg:fixed lg:z-50 font-poppins">
+      <div className="drawer text-black-900 lg:fixed lg:z-50 font-poppins">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* Navbar */}
@@ -57,15 +55,15 @@ const Navbar = () => {
             <div className="flex-1 px-2 mx-2">
               <img className="w-52" src={icon} alt="" />
             </div>
-            <div className="flex-none hidden lg:block">
-              <ul className="menu menu-horizontal text-lg font-medium">
-                <div className="flex justify-center items-center">
+            <div className="flex-none hidden lg:block mr-4">
+              <ul className="text-lg">
+                <div className="flex space-x-8 justify-center items-center">
                   {navOptions}
                   <li>
-                    <Link>
+                    <a className="flex justify-center gap-2 items-center">
                       <TfiHeadphoneAlt className="h-10 w-10 rounded-full p-2 bg-red-500 text-white" />
                       Help
-                    </Link>
+                    </a>
                   </li>
                 </div>
               </ul>
@@ -78,14 +76,17 @@ const Navbar = () => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu p-4 w-80 min-h-full font-medium text-base bg-base-200">
+
+          <ul className="p-14 w-80 min-h-full text-base bg-base-200">
+            <div>
             {navOptions}
             <li>
-              <Link>
+              <a className="flex justify-start gap-2 items-center">
                 <TfiHeadphoneAlt className="h-10 w-10 rounded-full p-2 bg-red-500 text-white" />
                 Help
-              </Link>
+              </a>
             </li>
+            </div>
           </ul>
         </div>
       </div>
