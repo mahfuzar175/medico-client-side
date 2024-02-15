@@ -26,11 +26,11 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className="drawer lg:fixed lg:z-50 font-poppins">
+      <div className="drawer lg:fixed lg:z-50 font-poppins max-w-[1400px] mx-auto">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* Navbar */}
-          <div className="w-full navbar bg-gradient-to-r from-base-200 to-pink-100 p-2">
+          <div className="w-full navbar p-2 bg-gray-100">
             <div className="flex-none lg:hidden">
               <label
                 htmlFor="my-drawer-3"
@@ -60,9 +60,9 @@ const Navbar = () => {
                 <div className="flex space-x-8 justify-center items-center">
                   {navOptions}
                   <li>
-                    <a href="/help" className="flex justify-center gap-2 items-center">
+                    <a className="flex justify-center gap-2 items-center">
                       <TfiHeadphoneAlt className="h-10 w-10 rounded-full p-2 bg-red-500 text-white" />
-                      <span className=" text-blue-900 hover:text-blue-400">Help</span>
+                      Help
                     </a>
                   </li>
                 </div>
@@ -82,8 +82,8 @@ const Navbar = () => {
             {navOptions}
             <li>
               <a href="/help" className="flex justify-start gap-2 items-center">
-                <TfiHeadphoneAlt className="h-10 w-10 rounded-full p-2 bg-red-500 text-white" />
-                <span className=" text-blue-900 hover:text-blue-400">Help</span>
+                <TfiHeadphoneAlt href="/help" className="h-10 w-10 rounded-full p-2 bg-red-500 text-white" />
+                Help
               </a>
             </li>
             </div>

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Cardiology",
+      "dept_icon": "heart-icon.png",
+      "intro": "Heart care specialists with advanced treatments.",
+      "details": "Cardiac screenings, echocardiograms, stress tests."
+    },
+    {
+      "id": 2,
+      "name": "Orthopedics",
+      "dept_icon": "bone-icon.png",
+      "intro": "Personalized musculoskeletal care for optimal health.",
+      "details": "Joint replacements, sports medicine, rehabilitation."
+    },
+    {
+      "id": 3,
+      "name": "Ophthalmology",
+      "dept_icon": "eye-icon.png",
+      "intro": "Vision care experts ensuring eye health.",
+      "details": "Cataract surgery, LASIK, glaucoma management."
+    },
+    {
+      "id": 4,
+      "name": "Neurology",
+      "dept_icon": "brain-icon.png",
+      "intro": "Compassionate care for neurological disorders.",
+      "details": "EEG, migraine treatment, stroke management."
+    },
+    {
+      "id": 5,
+      "name": "Dermatology",
+      "dept_icon": "skin-icon.png",
+      "intro": "Skin health and cosmetic procedures offered.",
+      "details": "Acne management, mole removal, cosmetics."
+    }
+  ]
+  

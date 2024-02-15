@@ -4,12 +4,15 @@ import Footer from "../Pages/Shared/Footer/Footer";
 
 const Main = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div>
+      <div className="flex flex-col max-w-[1400px] mx-auto">
       <Navbar />
-      <div className="flex-1 bg-gradient-to-r from-base-200 to-pink-100">
+      <div className="flex-1">
         <Outlet />
       </div>
-      <Footer />
+      
+    </div>
+    <Footer></Footer>
     </div>
   );
 };

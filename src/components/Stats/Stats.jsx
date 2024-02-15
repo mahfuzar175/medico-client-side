@@ -1,7 +1,6 @@
 const Stats = () => {
   return (
-    <div>
-      <div className="font-poppins text-blue-900 bg-cover bg-center p-28" style={{ backgroundImage: "url('https://i.ibb.co/d7K8cNQ/background.png')" }}>
+      <div className="font-poppins text-blue-900 bg-cover bg-center py-28 px-4" style={{ backgroundImage: "url('https://i.ibb.co/d7K8cNQ/background.png')" }}>
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-x-6 gap-y-12 divide-x divide-gray-300">
         <div className="text-center">
           <svg xmlns="http://www.w3.org/2000/svg" className="fill-blue-600 w-10 inline-block" viewBox="0 0 512 512">
@@ -33,7 +32,6 @@ const Stats = () => {
           <p className="font-semibold mt-3">Average Rating</p>
         </div>
       </div>
-    </div>
     </div>
   );
 };

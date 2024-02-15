@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="font-poppins">
       <div className="bg-gray-100 py-4 text-blue-900 font-medium">
-        <div className="container px-4 mx-auto">
+        <div className="container px-2 mx-auto">
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="px-4 my-4 w-full xl:w-1/5">
               <a href="/" className="block w-56 mb-10">
