@@ -1,7 +1,7 @@
 import { IoIosArrowDropright } from "react-icons/io";
 const Banner = () => {
     return (
-        <section className="font-poppins lg:mt-24 bg-cover bg-center bg-no-repeat bg-gradient-to-r from-blue-300 via-blue-500 to-blue-700"
+        <section className="mb-2 font-poppins lg:mt-24 bg-cover bg-center bg-no-repeat bg-gradient-to-r from-blue-300 via-blue-500 to-blue-700"
         style={{ backgroundImage: "url('https://i.ibb.co/PDF8ZXg/pngtree-minimalistic-technology-medical-medical-banner-poster-background-picture-image-1013773.png')" }}>
           <div className="mx-auto max-w-screen-xl px-4 py-16 lg:flex lg:h-screen lg:items-center">
             <div className="mx-auto max-w-3xl text-center">
