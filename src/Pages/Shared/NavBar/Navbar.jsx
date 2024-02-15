@@ -4,29 +4,29 @@ import { TfiHeadphoneAlt } from "react-icons/tfi";
 const Navbar = () => {
   const navOptions = (
     <>
-      <li className="my-1">
+      <li className="my-1 text-blue-900 hover:text-blue-400">
         <a href="/">Home</a>
       </li>
-      <li className="my-1">
-        <a>About</a>
+      <li className="my-1 text-blue-900 hover:text-blue-400">
+        <a href="/about">About</a>
       </li>
-      <li className="my-1">
-        <a>Departments</a>
+      <li className="my-1 text-blue-900 hover:text-blue-400">
+        <a href="/department">Departments</a>
       </li>
-      <li className="my-1">
-        <a>Pages</a>
+      <li className="my-1 text-blue-900 hover:text-blue-400">
+        <a href="/pages">Pages</a>
       </li>
-      <li className="my-1">
-        <a>Blog</a>
+      <li className="my-1 text-blue-900 hover:text-blue-400">
+        <a href="/blog">Blog</a>
       </li>
-      <li className="my-1">
-        <a>Contact</a>
+      <li className="my-1 text-blue-900 hover:text-blue-400">
+        <a href="/contact">Contact</a>
       </li>
     </>
   );
   return (
     <div>
-      <div className="drawer text-black-900 lg:fixed lg:z-50 font-poppins">
+      <div className="drawer lg:fixed lg:z-50 font-poppins">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* Navbar */}
@@ -60,9 +60,9 @@ const Navbar = () => {
                 <div className="flex space-x-8 justify-center items-center">
                   {navOptions}
                   <li>
-                    <a className="flex justify-center gap-2 items-center">
+                    <a href="/help" className="flex justify-center gap-2 items-center">
                       <TfiHeadphoneAlt className="h-10 w-10 rounded-full p-2 bg-red-500 text-white" />
-                      Help
+                      <span className=" text-blue-900 hover:text-blue-400">Help</span>
                     </a>
                   </li>
                 </div>
@@ -81,9 +81,9 @@ const Navbar = () => {
             <div>
             {navOptions}
             <li>
-              <a className="flex justify-start gap-2 items-center">
+              <a href="/help" className="flex justify-start gap-2 items-center">
                 <TfiHeadphoneAlt className="h-10 w-10 rounded-full p-2 bg-red-500 text-white" />
-                Help
+                <span className=" text-blue-900 hover:text-blue-400">Help</span>
               </a>
             </li>
             </div>
