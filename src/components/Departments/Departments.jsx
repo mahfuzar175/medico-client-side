@@ -14,10 +14,8 @@ const Departments = () => {
       });
   }, []);
   return (
-    <div className="font-poppins p-10 mb-10 mt-4  space-y-2 justify-center items-center">
-      <div className="text-center mb-4">
-      <HeadingSection title='Our departments' description='Services for Your Health'></HeadingSection>
-      </div>
+    <div className="font-poppins p-10 mb-10 space-y-2 justify-center items-center">
+       <HeadingSection title='Our departments' description='Services for Your Health'></HeadingSection>
       <div className="flex justify-center items-center">
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* first card */}
