@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import DepartmentCard from "./DepartmentCard";
+import HeadingSection from "../../Pages/Shared/HeadingSection";
 const Departments = () => {
   const [department, setDepartment] = useState([]);
   useEffect(() => {
@@ -15,10 +16,7 @@ const Departments = () => {
   return (
     <div className="font-poppins p-10 mb-10 mt-4  space-y-2 justify-center items-center">
       <div className="text-center mb-4">
-      <h4 className="font-semibold text-lg text-blue-500">Our departments</h4>
-      <h2 className="font-bold text-3xl md:text-4xl text-blue-900">
-        Services for Your Health
-      </h2>
+      <HeadingSection title='Our departments' description='Services for Your Health'></HeadingSection>
       </div>
       <div className="flex justify-center items-center">
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
