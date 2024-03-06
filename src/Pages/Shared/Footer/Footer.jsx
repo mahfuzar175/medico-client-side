@@ -5,97 +5,97 @@ const Footer = () => {
     <footer className="font-poppins">
       <div className="bg-gray-100 py-4 text-blue-900 font-medium">
         <div className="container px-2 mx-auto">
-          <div className="-mx-4 flex flex-wrap justify-between">
+          <div className=" flex flex-wrap justify-between">
             <div className="px-4 my-4 w-full xl:w-1/5">
               <a href="/" className="block w-56 mb-10">
                 <img className="w-52" src={icon} alt="" />
               </a>
               <p className="text-justify">
-                From wellness tips to expert advice, we're here to support your
+                From wellness tips to expert advice, <br /> we're here to support your
                 journey to a healthier you.
               </p>
             </div>
 
-            <div class="px-4 my-4 w-full sm:w-auto">
+            <div className="px-4 my-4 w-full sm:w-auto">
               <div>
-                <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900 font-semibold">
+                <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900 font-semibold">
                   Quick Links
                 </h2>
               </div>
-              <ul class="leading-8">
+              <ul className="leading-8">
                 <li>
-                  <a href="/" class="hover:text-blue-400">
+                  <a href="/" className="hover:text-blue-400">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <a href="#" className="hover:text-blue-400">
                     Appointment
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <a href="#" className="hover:text-blue-400">
                     Style Guide
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <a href="#" className="hover:text-blue-400">
                     Licenses
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <a href="#" className="hover:text-blue-400">
                     Changelog
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="px-4 my-4 w-full sm:w-auto">
+            <div className="px-4 my-4 w-full sm:w-auto">
               <div>
-                <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900 font-semibold">
+                <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900 font-semibold">
                   Opening Hours
                 </h2>
               </div>
-              <ul class="leading-8">
+              <ul className="leading-8">
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <a href="#" className="hover:text-blue-400">
                     Mon - Tues 08:00 AM - 05:00PM
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <a href="#" className="hover:text-blue-400">
                     Wed - Thu 09:00 AM - 06:00PM
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <a href="#" className="hover:text-blue-400">
                     Fri - Sat 08:00 AM - 05:00PM
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <a href="#" className="hover:text-blue-400">
                     Sunday Emergency Only
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <a href="#" className="hover:text-blue-400">
                     Personal Mon - 05:00PM
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="px-4 my-4 w-full sm:w-auto xl:w-1/5">
+            <div className="px-4 my-4 w-full sm:w-auto xl:w-1/5">
               <div>
-                <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900 font-semibold">
+                <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-900 font-semibold">
                   Connect With Us
                 </h2>
               </div>
               <a
                 href="#"
-                class="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
+                className="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
               >
                 <svg
-                  class="w-4 h-4 fill-current"
+                  className="w-4 h-4 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 320 512"
                 >
@@ -104,10 +104,10 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                class="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
+                className="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
               >
                 <svg
-                  class="w-4 h-4 fill-current"
+                  className="w-4 h-4 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
                 >
@@ -116,10 +116,10 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                class="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
+                className="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
               >
                 <svg
-                  class="w-4 h-4 fill-current"
+                  className="w-4 h-4 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 448 512"
                 >
@@ -128,10 +128,10 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                class="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
+                className="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
               >
                 <svg
-                  class="w-4 h-4 fill-current"
+                  className="w-4 h-4 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 496 512"
                 >
@@ -140,10 +140,10 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                class="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
+                className="inline-flex items-center justify-center h-9 w-9 border border-blue-900 rounded-full mr-1 hover:bg-blue-500 hover:text-white hover:border-none"
               >
                 <svg
-                  class="w-4 h-4 fill-current"
+                  className="w-4 h-4 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 576 512"
                 >
@@ -156,7 +156,7 @@ const Footer = () => {
       </div>
       <hr className="w-full border-t border-gray-200" />
       <div className="bg-gray-100 py-6 font-medium text-blue-900">
-        <div className="container mx-auto px-4">
+        <div className="mx-auto px-4">
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="px-4 w-full text-center">
               Copyright © 2020
@@ -164,11 +164,12 @@ const Footer = () => {
                 new Date().getFullYear() > 2023 && document.write("- " + new
                 Date().getFullYear())
               </script>
-              - 2024 Medico Medical Center, All Rights Reserved.
+              - 2024 Medico Medical Center, <br /> All Rights Reserved.
             </div>
           </div>
         </div>
       </div>
+     
     </footer>
   );
 };

@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "city": "Boston",
+      "review": "I had a wonderful experience at this clinic. The staff was friendly, and the doctor was thorough in addressing my health concerns. I highly recommend this facility."
+    },
+    {
+      "id": 2,
+      "name": "Mark Davis",
+      "city": "Houston",
+      "review": "The medical team here is top-notch. They provided excellent care, and the facilities were clean and modern. I appreciate the professionalism and efficiency of the staff."
+    },
+    {
+      "id": 3,
+      "name": "Emma Smith",
+      "city": "Chicago",
+      "review": "I'm grateful for the compassionate care I received. The doctor was attentive and took the time to explain my treatment plan. The entire experience was positive and stress-free."
+    },
+    {
+      "id": 4,
+      "name": "James Miller",
+      "city": "Los Angeles",
+      "review": "This clinic exceeded my expectations. The staff was courteous, and the doctor provided thorough explanations. I felt comfortable and well-cared-for throughout my visit."
+    },
+    {
+      "id": 5,
+      "name": "Sophie Brown",
+      "city": "Miami",
+      "review": "I had a great experience with the medical team. The facility is clean, and the staff is friendly. The doctor listened to my concerns and provided effective treatment."
+    },
+    {
+      "id": 6,
+      "name": "Alex Wilson",
+      "city": "Denver",
+      "review": "Exceptional service! The entire staff was welcoming, and the doctor was knowledgeable and approachable. I'm impressed with the level of care I received."
+    }
+  ]
+  

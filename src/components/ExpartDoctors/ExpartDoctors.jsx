@@ -12,9 +12,9 @@ const ExpartDoctors = () => {
         description="Our Expert Doctors"
       ></HeadingSection>
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-8">
           {/* 1st card */}
-          <div className="w-80 p-4 hover:text-blue-500">
+          <div className="w-72 p-4 hover:text-blue-500">
             <div>
             <img src={img1} alt="" className="hover:scale-105 duration-200"/>
             </div>
@@ -24,7 +24,7 @@ const ExpartDoctors = () => {
             </div>
           </div>
           {/* second card */}
-          <div className="w-80 p-4 hover:text-blue-500">
+          <div className="w-72 p-4 hover:text-blue-500">
             <div>
             <img src={img2} alt="" className="hover:scale-105 duration-200"/>
             </div>
@@ -34,7 +34,7 @@ const ExpartDoctors = () => {
             </div>
           </div>
           {/* third card */}
-          <div className="w-80 p-4 hover:text-blue-500">
+          <div className="w-72 p-4 hover:text-blue-500">
             <div>
             <img src={img3} alt="" className="hover:scale-105 duration-200"/>
             </div>
@@ -44,7 +44,7 @@ const ExpartDoctors = () => {
             </div>
           </div>
           {/* fourth card */}
-          <div className="w-80 p-4 hover:text-blue-500">
+          <div className="w-72 p-4 hover:text-blue-500">
             <div>
             <img src={img4} alt="" className="hover:scale-105 duration-200"/>
             </div>
