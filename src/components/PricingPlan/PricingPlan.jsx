@@ -11,16 +11,16 @@ const PricingPlan = () => {
         description="Healthcare Plans for You"
       ></HeadingSection>
       <div className="sm:flex sm:flex-col sm:align-center px-10">
-        <div className="relative self-center bg-slate-200 rounded-lg p-0.5 flex">
+        <div className="relative self-center bg-white rounded-lg p-2 flex">
           <button
             type="button"
-            className="relative w-1/2 rounded-md py-2 text-sm font-medium whitespace-nowrap focus:outline-none sm:w-auto sm:px-8 bg-slate-50 border-slate-50 text-slate-900 shadow-sm"
+            className="relative w-1/2 rounded-md py-2 text-sm font-medium whitespace-nowrap focus:outline-none bg-blue-900 sm:w-auto sm:px-8 border-slate-50 text-white shadow-sm"
           >
             Monthly
           </button>
           <button
             type="button"
-            className="ml-0.5 relative w-1/2 border rounded-md py-2 text-sm font-medium whitespace-nowrap focus:outline-none sm:w-auto sm:px-8 border-transparent text-slate-900"
+            className="ml-0.5 relative w-1/2 border rounded-md py-2 text-sm font-medium whitespace-nowrap focus:outline-none sm:w-auto sm:px-8 border-transparent text-blue-900"
           >
             Yearly
           </button>
@@ -43,7 +43,7 @@ const PricingPlan = () => {
                 </span>
               </p>
               <a
-                href="/sign-up"
+                href="#"
                 className="mt-8 block w-full hover:bg-blue-900 hover:text-white bg-blue-100 text-blue-600 rounded-md py-2 text-sm font-semibold  text-center"
               >
                 Get Started Now
@@ -200,7 +200,7 @@ const PricingPlan = () => {
                 </span>
               </p>
               <a
-                href="/sign-up"
+                href="#"
                 className="mt-8 block w-full hover:bg-blue-900 hover:text-white bg-blue-100 text-blue-600 rounded-md py-2 text-sm font-semibold  text-center"
               >
                 Get Started Now

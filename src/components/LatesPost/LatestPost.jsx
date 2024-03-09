@@ -26,7 +26,6 @@ const LatestPost = () => {
           </div>
         </div>
       </div>
-      {/* <HeadingSection title="Blog & News" description="Our Latest Posts" /> */}
       <div className="flex justify-center items-center">
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:gap-14 gap-6 lg:px-12 px-6">
         <div className="space-y-5 text-blue-900 hover:text-blue-600">

@@ -8,19 +8,19 @@ const Navbar = () => {
         <a href="/">Home</a>
       </li>
       <li className="my-1 text-blue-900 hover:text-blue-400">
-        <a href="/about">About</a>
+        <a href="/">About</a>
       </li>
       <li className="my-1 text-blue-900 hover:text-blue-400">
-        <a href="/department">Departments</a>
+        <a href="/">Departments</a>
       </li>
       <li className="my-1 text-blue-900 hover:text-blue-400">
-        <a href="/pages">Pages</a>
+        <a href="/">Pages</a>
       </li>
       <li className="my-1 text-blue-900 hover:text-blue-400">
-        <a href="/blog">Blog</a>
+        <a href="/">Blog</a>
       </li>
       <li className="my-1 text-blue-900 hover:text-blue-400">
-        <a href="/contact">Contact</a>
+        <a href="/">Contact</a>
       </li>
     </>
   );
