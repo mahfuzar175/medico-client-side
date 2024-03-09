@@ -2,7 +2,7 @@ import icon from "../../../assets/Images/Medico.png";
 
 const Footer = () => {
   return (
-    <footer className="font-poppins mt-24">
+    <footer className="font-poppins mt-32">
       <div className="bg-gray-100 py-4 text-blue-900 font-medium">
         <div className="container px-8 max-w-7xl  mx-auto">
           <div className=" flex flex-wrap justify-between">
