@@ -7,7 +7,7 @@ import Stats from "../../components/Stats/Stats";
 
 const Home = () => {
   return (
-    <div className="max-w-[1400px] mx-auto">
+    <div>
       <Banner></Banner>
       <Stats></Stats>
       <Departments></Departments>

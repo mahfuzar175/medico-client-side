@@ -11,7 +11,7 @@ const ExpartDoctors = () => {
         title="Team Members"
         description="Our Expert Doctors"
       ></HeadingSection>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center font-poppins">
         <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-8">
           {/* 1st card */}
           <div className="w-72 p-4 hover:text-blue-500">

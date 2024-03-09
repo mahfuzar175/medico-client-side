@@ -2,8 +2,7 @@
 const DepartmentCard = ({item}) => {
     return (
         <div>
-            <div className="w-72 bg-blue-50 hover:bg-white h-72 p-6 hover:border hover:border-blue-600 border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
-            <img src="" alt="" />
+            <div className="w-72 bg-blue-50 border border-white hover:bg-white h-72 p-6 hover:border hover:border-blue-600  rounded-lg dark:bg-gray-800 dark:border-gray-700">
             <div>
                 <img className="w-12 h-12 text-gray-500 dark:text-gray-400 mb-3"  src={item.dept_icon} alt="" />
             </div>
