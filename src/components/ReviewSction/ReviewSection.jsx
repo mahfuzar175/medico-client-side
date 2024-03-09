@@ -51,13 +51,13 @@ const ReviewSection = () => {
   };
 
   return (
-    <div style={{ textAlign: "center" }} className="mb-24 font-poppins">
+    <div style={{ textAlign: "center" }} className="font-poppins">
       <HeadingSection title="Testimonial" description="Patients Say About Us" />
 
       <div className="px-14">
         <Slider {...sliderSettings}>
           {reviews.map((review) => (
-            <div key={review.id}>
+            <div key={review.id} className="p-4">
                 <div className="relative max-w-sm mx-auto mt-14">
                   <div className="rounded-xl border hover:border-blue-600 overflow-hidden bg-white">
                     <div className="absolute -mt-12 w-full flex justify-center">

@@ -13,13 +13,13 @@ import img10 from "../assets/marquee/10.png";
 
 const Company = () => {
   const imageStyle = {
-    width: "110px",
-    height: "100px",
+    width: "80px",
+    height: "80px",
   };
 
   return (
-    <div className="mb-24">
-      <Marquee pauseOnHover speed={100}>
+    <div className="mb-24 px-14">
+      <Marquee pauseOnHover speed={60}>
         <div className="mr-12">
           <img src={img1} alt="" style={imageStyle} />
         </div>

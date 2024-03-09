@@ -2,9 +2,9 @@ import icon from "../../../assets/Images/Medico.png";
 
 const Footer = () => {
   return (
-    <footer className="font-poppins">
+    <footer className="font-poppins mt-24">
       <div className="bg-gray-100 py-4 text-blue-900 font-medium">
-        <div className="container px-8  max-w-[1400px] mx-auto">
+        <div className="container px-8 max-w-7xl  mx-auto">
           <div className=" flex flex-wrap justify-between">
             <div className="px-4 my-4 w-full xl:w-1/5">
               <a href="/" className="block w-56 mb-10">
